@@ -1,7 +1,7 @@
 package dev.aitor;
 
 public class CheckingAccount extends Account {
-    private float overdraft;
+    public float overdraft;
 
     public CheckingAccount(float balance, float annualInterestRate) {
         super(balance, annualInterestRate);

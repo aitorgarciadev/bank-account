@@ -1,7 +1,7 @@
 package dev.aitor;
 
 public class SavingsAccount extends Account {
-    private boolean isActive;
+    public boolean isActive;
 
     public SavingsAccount(float balance, float annualInterestRate) {
         super(balance, annualInterestRate);
